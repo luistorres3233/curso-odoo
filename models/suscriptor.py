@@ -1,4 +1,6 @@
-# -*- coding: utsuscriptorfrom openerp.suscriptort osv, fields
+# -*- coding: utf-8 -*-
+
+from openerp.osv import osv, fields
 
 class suscriptor(osv.osv):
     _name = 'co.suscriptor'
