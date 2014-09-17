@@ -4,7 +4,7 @@ from openerp.osv import osv, fields
 
 class suscriptor(osv.osv):
     _name = 'co.suscriptor'
-    _description = 'Clase que contiene los elementos definidos de negocio para el suscriptor'
+    _description = 'CO Suscriptor'
     
     _columnas = {
         'nombre': fields.char('Nombre y Apellido'),
