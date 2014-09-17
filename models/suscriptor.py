@@ -6,7 +6,7 @@ class suscriptor(osv.osv):
     _name = 'co.suscriptor'
     _description = 'CO Suscriptor'
     
-    _columnas = {
+    _columns = {
         'nombre': fields.char('Nombre y Apellido'),
         'identificacion': fields.char('Cédula'),
         'direccion': fields.text('Dirección'),
