@@ -12,7 +12,7 @@ class linea_stock(osv.osv):
         'multimedia_id': fields.many2one('co.multimedia', 'Multimedia'),
         'medio_id': fields.many2one('co.tipo.medio', 'tipo medio'),
         'tienda_id': fields.many2one('co.tienda', 'tienda'),
-        'quantity': fields.integer('cantidad')
+        'cantidad': fields.integer('cantidad')
         
 
     }        
@@ -24,7 +24,7 @@ class tienda(osv.osv):
 
 	_columns = {
 
-	'linea_stock': fields.one2many('co.linea_stock', 'stock')
+	'linea_stock': fields.one2many('co.linea.stock','tienda_id', 'Stock')
 
 	}
 
