@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+    		Menu Padre
+        -->
+        <menuitem id="curso-odoo.menu_base_curso" name="Inicio" sequence="5" 
+        	      groups="base.group_user" />
+
+        <!-- 
+    		SubMenu Multimedia
+        -->
+
+        <menuitem id="submenu_multimedia" name="Multimedia" parent="menu_base_curso" sequence="5" groups="base.group_user" /> 
+
+        <menuitem id="submenu_gestion_usuario" name="Gestion Usuario" parent="menu_base_curso" sequence="5" groups="base.group_user" />
+
+        <menuitem id="submenu_tienda" name="Tienda" parent="menu_base_curso" sequence="5" groups="base.group_user" />
+		
+    </data>
+</openerp>
+
+

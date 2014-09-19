@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	<!-- 
+    		Vista form de CO Multimedia
+        -->
+        <record id="view_suscripcion_form" model="ir.ui.view">
+            <field name="name">co.suscripcion.form </field>
+            <field name="model">co.suscripcion</field>
+            <field name="arch" type="xml">
+                <form string="Suscripcion" version="7.0">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="codigo" string="El código se genera de forma automática"/>
+                            <h1>
+                                <field name="codigo" readonly="1"/>
+                            </h1>
+                            <label for="tipo"/>
+                            <field name="tipo"/>
+                            <label for="suscriptor_id"/>
+                            <field name="suscriptor_id"/>
+                            <label for="fecha_inicio"/>
+                            <field name="fecha_inicio"/>
+                            <label for="fecha_final"/>
+                            <field name="fecha_final"/>
+                        </div>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <!-- 
+    		Vista Tree de CO Multimedia
+        -->
+
+        <record id="view_suscripcion_tree" model="ir.ui.view">
+            <field name="name">co.suscripcion.tree </field>
+            <field name="model">co.suscripcion</field>
+            <field name="arch" type="xml">
+                <tree string="Suscripcion" colors="brown:tipo=='bronce';gray:tipo=='plata';orange:tipo=='oro'">
+                    <field name="tipo"/>
+                    <field name="codigo"/>
+                    <field name="fecha_inicio"/>
+                    <field name="fecha_final"/>
+                    <field name="suscriptor_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_suscripcion" model="ir.actions.act_window">
+            <field name="name">Suscripción</field>
+            <field name="res_model">co.suscripcion</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">form,tree</field>
+            <field name="view_id" ref="view_suscripcion_tree"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Acá se se determinan los planes para determinados usuarios.
+                </p>
+            </field>
+        </record>
+        <menuitem action="action_suscripcion" id="menu_suscripcion" sequence="5" parent="submenu_gestion_usuario" />
+    </data>
+</openerp>
