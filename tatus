@@ -1,0 +1,47 @@
+[33mcommit c9fe60eb2390efa379d3a5ccc5070636a51f1173[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 08:34:07 2014 -0430
+
+    modificacion modelos
+
+[33mcommit f7eb98a555d5f7fa6d1243f5f84347f1c9c6249d[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 08:23:20 2014 -0430
+
+    modificado tipo_medio
+
+[33mcommit ecc4ace70a7e4c4ed206a09567ebd46dba0afaa5[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 08:19:00 2014 -0430
+
+    Declaramos y agregamos todos los modelos necesarios para nuestro ejemplo
+
+[33mcommit f0aced76c25f10409362e20b3990aa7b53fd3c52[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 05:35:01 2014 -0430
+
+    segunda modificacion suscriptor
+
+[33mcommit d23b8dc353bf00c7f2379d42014e3cd420c95350[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 03:01:42 2014 -0430
+
+    Modificacion del objeto suscriptor
+
+[33mcommit f01a545481e18e6b956ef917b3c8aa504d1af8d6[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 02:58:36 2014 -0430
+
+    Declarando el objeto suscriptor
+
+[33mcommit 55536e3dd019f05d05698818d5e3162bb9e16a0d[m
+Author: Luis Torres <luistorres@example.com>
+Date:   Wed Sep 17 02:11:55 2014 -0430
+
+    Agregando archivos para declarar modelo
+
+[33mcommit b010e4605bb85d785037e5cd7a6dd44e331e4b4a[m
+Author: luistorres3233 <luistorres3233@gmail.com>
+Date:   Mon Sep 15 14:00:41 2014 -0430
+
+    Initial commit
